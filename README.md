@@ -253,8 +253,9 @@ POST /predict
 ---
 
 ## 💾 Database (SQLite)
+This project uses SQLite (`fraud.db`) for storing transaction history. The database is automatically created at runtime.
 
-Stores:
+It stores:
 
 * `user_id`
 * transaction details
