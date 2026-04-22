@@ -22,7 +22,7 @@ create_table()
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(BASE_DIR, "best_fraud_model_v2.pkl")
+model_path = os.path.join(BASE_DIR, "..", "best_fraud_model_v2.pkl")
 
 bundle = joblib.load(model_path)
 
