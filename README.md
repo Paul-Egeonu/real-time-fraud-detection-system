@@ -7,7 +7,7 @@
 ![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-orange)
 ![Streamlit](https://img.shields.io/badge/App-Streamlit-red)
 ![FastAPI](https://img.shields.io/badge/App-FastAPI-purple)
-![Status](https://img.shields.io/badge/Project-Incomplete)
+![Status](https://img.shields.io/badge/Project-Incomplete-red)
 
 ---
 
