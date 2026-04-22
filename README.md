@@ -178,9 +178,9 @@ POST /predict
 
 | Probability Range | Risk Level  |
 | ----------------- | ----------- |
-| < 30%             | LOW RISK    |
-| 30% – 70%         | MEDIUM RISK |
-| > 70%             | HIGH RISK   |
+| < 20%             | LOW RISK    |
+| 20% – 45%         | MEDIUM RISK |
+| > 45%             | HIGH RISK   |
 
 > Note: Model threshold is optimized separately for prediction accuracy.
 
