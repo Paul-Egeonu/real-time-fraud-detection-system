@@ -2,6 +2,12 @@
 
 ### Real-Time Fraud Detection System with Behavioral Intelligence
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
+![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-orange)
+![Streamlit](https://img.shields.io/badge/App-Streamlit-red)
+![Status](https://img.shields.io/badge/Project-Complete-success)
+
 ---
 
 ## 📌 Overview
