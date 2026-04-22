@@ -204,6 +204,7 @@ POST /predict
   "risk_level": "MEDIUM RISK"
 }
 ```
+> Note: Actual probabilities will vary depending on input and user behavior history.
 
 ---
 
