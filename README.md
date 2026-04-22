@@ -31,6 +31,26 @@ This project simulates a **production-grade fintech fraud detection system** use
 
 ---
 
+## 🔹 Project Structure
+
+fraud-sentinel-pro/
+│
+├── app/
+│   ├── api.py
+│   ├── database.py
+│   ├── features.py
+│   └── sentinel.py
+│
+├── data/
+│   └── fraud_features_v2.csv
+│
+├── best_fraud_model_v2.pkl
+├── requirements.txt
+├── README.md
+└── .gitignore
+
+---
+
 ## 🧠 Machine Learning Pipeline
 
 ### Models Implemented
