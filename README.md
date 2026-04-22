@@ -287,8 +287,8 @@ Used for:
 ## 📦 Installation
 
 ```bash
-git clone git clone https://github.com/Paul-Egeonu/real-time-fraud-detection-system.git
-cd fraud-sentinel-pro
+git clone https://github.com/Paul-Egeonu/real-time-fraud-detection-system.git
+cd real-time-fraud-detection-system
 pip install -r requirements.txt
 ```
 
