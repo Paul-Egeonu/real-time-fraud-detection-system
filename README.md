@@ -189,10 +189,11 @@ POST https://real-time-fraud-detection-system-1-iaad.onrender.com/predict
 POST /predict
 ```
 
-#### Example Request
+#### cURL Example Request
 
-```json
-{
+curl -X POST https://real-time-fraud-detection-system-1-iaad.onrender.com/predict \
+-H "Content-Type: application/json" \
+-d '{
   "user_id": "U1389",
   "amount_usd": 250,
   "country": "Nigeria",
@@ -202,8 +203,7 @@ POST /predict
   "transaction_status": "success",
   "hour": 14,
   "is_weekend": 0
-}
-```
+}'
 
 ---
 
