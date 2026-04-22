@@ -35,7 +35,17 @@ This project simulates a **production-grade fintech fraud detection system** use
 
 ### 🌐 Live App
 
-👉 [Access Fraud Sentinel Pro (Live App)](https://real-time-fraud-detection-system-1.streamlit.app/)
+👉 [Access Fraud Sentinel Pro](https://real-time-fraud-detection-system-1.streamlit.app/)
+
+> This application is deployed on FastAPI & Streamlit Cloud and enables real-time fraud prediction & risk detection.
+
+---
+
+## 🎥 Demo Preview
+
+> _(Add your GIF here after recording the app)_
+
+![App Demo](path/to/your/demo.gif)
 
 ---
 
@@ -48,6 +58,7 @@ This project simulates a **production-grade fintech fraud detection system** use
 * 🔄 Live transaction simulation & fraud alerts
 * 🎯 Business-driven threshold optimization
 * 📈 Probability calibration for reliable predictions
+* 🧠 Dynamic risk classification engine
 
 ---
 
@@ -57,15 +68,15 @@ This project simulates a **production-grade fintech fraud detection system** use
 fraud-sentinel-pro/
 │
 ├── app/
-│   ├── api.py
-│   ├── database.py
-│   ├── features.py
-│   └── sentinel.py
+│   ├── api.py              # FastAPI backend
+│   ├── database.py         # SQLite connection & schema
+│   ├── features.py         # User behavioral features
+│   └── sentinel.py         # Streamlit dashboard
 │
 ├── data/
 │   └── fraud_features_v2.csv
 │
-├── best_fraud_model_v2.pkl
+├── best_fraud_model_v2.pkl # Trained ML model
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -84,10 +95,10 @@ fraud-sentinel-pro/
 
 ### Enhancements
 
-* ColumnTransformer (scaling + encoding)
-* CalibratedClassifierCV (probability calibration)
-* Precision-Recall based threshold optimization
-* Business-weighted scoring (Recall-focused)
+- `ColumnTransformer` (scaling + encoding)
+- `CalibratedClassifierCV` (probability calibration)
+- Precision-Recall threshold optimization
+- Business-weighted scoring (**recall-focused fraud detection**)
 
 ---
 
@@ -208,16 +219,26 @@ POST /predict
 
 ---
 
+## 🧠 Decision Engine
+
+| Risk Level  | Action                          |
+|------------|--------------------------------|
+| LOW RISK    | ✅ Approve Transaction          |
+| MEDIUM RISK | ⚠️ Require OTP / Verification   |
+| HIGH RISK   | 🚨 Block Transaction            |
+
+---
+
 ## 🖥️ Streamlit Dashboard
 
 ### Features
 
 * 📥 Transaction input panel
-* 📊 KPI metrics (velocity, risk rates)
+* 📊 KPI metrics (velocity, fraud rates, risk rates)
 * 📈 Real-time fraud scoring
 * 🧠 Decision engine (Approve / Review / Block)
 * 📡 Live transaction stream simulation
-* 🚨 Fraud alert system
+* 🚨 Real-time fraud alerts panel
 
 ---
 
@@ -279,11 +300,11 @@ streamlit run app/sentinel.py
 
 ### Backend (API)
 
-* Render / Railway
+- Hosted on **Render**
 
 ### Frontend (Dashboard)
 
-* Streamlit Cloud
+- Hosted on **Streamlit Cloud**
 
 ---
 
@@ -304,6 +325,7 @@ CMD ["uvicorn", "app.api:app", "--host", "0.0.0.0", "--port", "8000"]
 * SQLite resets in cloud environments
 * No authentication layer yet
 * Simulated transaction data (not live production data)
+* - No model monitoring yet
 
 ---
 
@@ -312,8 +334,8 @@ CMD ["uvicorn", "app.api:app", "--host", "0.0.0.0", "--port", "8000"]
 * Kafka real-time streaming pipeline
 * PostgreSQL production database
 * Model monitoring & drift detection
-* Fraud ring detection (graph-based)
-* User risk scoring over time
+* Fraud ring detection (graph-based ML)
+* User lifetime risk scoring
 * API authentication & rate limiting
 
 ---
@@ -325,18 +347,19 @@ This project demonstrates how machine learning can be applied in fintech to:
 * Detect fraud in real time
 * Reduce financial loss
 * Improve transaction security
-* Automate risk-based decisions
-* Simulate production fraud systems
+* Automate decision-making systems
+* Simulate production-grade fraud pipelines
 
 ---
 
 ## 💼 Resume Highlights
 
-* Built an end-to-end fraud detection system using ML, FastAPI, and Streamlit
-* Designed behavioral fraud features including transaction velocity and user risk scoring
-* Implemented real-time scoring API with dynamic risk classification
-* Developed live fraud monitoring dashboard with alert system
-* Applied probability calibration and threshold tuning for business optimization
+- Built an end-to-end fraud detection system using **Machine Learning, FastAPI, and Streamlit**
+- Designed behavioral fraud features including **transaction velocity and user risk scoring**
+- Implemented **real-time scoring API** with dynamic risk classification
+- Developed **live fraud monitoring dashboard** with alert system
+- Applied **probability calibration and threshold tuning** for business optimization
+- Simulated **production-grade fraud detection architecture**
 
 ---
 
