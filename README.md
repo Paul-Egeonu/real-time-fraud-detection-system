@@ -22,7 +22,20 @@ It combines:
 * API-based deployment
 * Interactive dashboard monitoring
 
-This project simulates a **production-grade fintech fraud detection system** used for risk scoring, anomaly detection, and automated decision-making.
+This project simulates a **production-grade fintech fraud detection system** used for:
+
+- Risk scoring  
+- Fraud detection  
+- Anomaly detection  
+- Automated decision-making
+
+---
+
+
+
+### 🌐 Live App
+
+👉 [Access Fraud Sentinel Pro (Live App)](https://real-time-fraud-detection-system-1.streamlit.app/)
 
 ---
 
