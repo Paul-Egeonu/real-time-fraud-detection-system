@@ -6,7 +6,7 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green)
 ![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-orange)
 ![Streamlit](https://img.shields.io/badge/App-Streamlit-red)
-![Status](https://img.shields.io/badge/Project-Still-in-Progress)
+![Status](https://img.shields.io/badge/FastAPI)
 
 ---
 
