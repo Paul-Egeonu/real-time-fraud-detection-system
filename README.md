@@ -191,7 +191,7 @@ POST /predict
 
 #### cURL Example Request
 
-```
+```bash
 curl -X POST https://real-time-fraud-detection-system-1-iaad.onrender.com/predict \
 -H "Content-Type: application/json" \
 -d '{
