@@ -268,7 +268,9 @@ curl -X POST https://real-time-fraud-detection-system-1-iaad.onrender.com/predic
 ---
 
 ## 💾 Database (SQLite)
-This project uses SQLite (`fraud.db`) for storing transaction history. The database is automatically created at runtime.
+This project uses SQLite (`fraud.db`) for storing transaction history. 
+- The database is automatically created at runtime
+- It is not included in the repository
 
 It stores:
 
