@@ -171,6 +171,18 @@ Response:
 
 ---
 
+## 🌐 API Base URL
+
+https://real-time-fraud-detection-system-1-iaad.onrender.com/
+
+---
+
+### Full Endpoint
+
+POST https://real-time-fraud-detection-system-1-iaad.onrender.com/predict
+
+---
+
 ### 🚀 Fraud Prediction
 
 ```http
