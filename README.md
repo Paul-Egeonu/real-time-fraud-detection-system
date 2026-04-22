@@ -191,6 +191,7 @@ POST /predict
 
 #### cURL Example Request
 
+```
 curl -X POST https://real-time-fraud-detection-system-1-iaad.onrender.com/predict \
 -H "Content-Type: application/json" \
 -d '{
@@ -204,6 +205,7 @@ curl -X POST https://real-time-fraud-detection-system-1-iaad.onrender.com/predic
   "hour": 14,
   "is_weekend": 0
 }'
+```
 
 ---
 
