@@ -262,7 +262,8 @@ if run:
                 "industry": payload["industry"],
                 "channel": payload["payment_channel"],
                 "probability": round(prob, 3),
-                "risk": risk
+                "risk": risk,
+                "status": "🔴" if risk == "HIGH RISK" else "🟠" if risk == "MEDIUM RISK" else "🟢"
             }
 
             st.session_state.transactions.insert(0, txn)
@@ -289,7 +290,7 @@ if run:
             # =============================
             with col1:
                 st.dataframe(
-                    df.style.applymap(color_risk, subset=["risk"]),
+                    df,
                     use_container_width=True,
                     height=400
                 )
