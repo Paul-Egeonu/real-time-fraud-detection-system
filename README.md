@@ -33,6 +33,7 @@ This project simulates a **production-grade fintech fraud detection system** use
 
 ## 🔹 Project Structure
 
+```
 fraud-sentinel-pro/
 │
 ├── app/
@@ -48,6 +49,7 @@ fraud-sentinel-pro/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ---
 
