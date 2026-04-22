@@ -9,6 +9,8 @@ import pandas as pd
 import time
 from datetime import datetime
 
+API_URL = "https://real-time-fraud-detection-system-1-iaad.onrender.com/predict"
+
 # ============================================================
 # PAGE CONFIG
 # ============================================================
@@ -188,7 +190,7 @@ if st.button("🚀 Analyze Transaction", use_container_width=True):
     payload = build_payload()
 
     try:
-        res = requests.post("http://127.0.0.1:8000/predict", json=payload)
+        res = requests.post(API_URL, json=payload)
         result = res.json()
 
         if "error" in result:
@@ -244,7 +246,7 @@ if run:
         payload = build_payload()
 
         try:
-            res = requests.post("http://127.0.0.1:8000/predict", json=payload)
+            res = requests.post(API_URL, json=payload)
             result = res.json()
 
             if "error" in result:
