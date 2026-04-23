@@ -1,3 +1,4 @@
+<img width="854" height="404" alt="Fraud_sentinel" src="https://github.com/user-attachments/assets/4a0ff32f-cb78-4da8-b681-163b205392b0" />
 # 🛡️ Fraud Sentinel Pro
 
 ### Real-Time Fraud Detection System with Behavioral Intelligence
@@ -43,9 +44,8 @@ This project simulates a **production-grade fintech fraud detection system** use
 
 ## 🎥 Demo Preview
 
-> _(Add your GIF here after recording the app)_
-
-![App Demo](path/to/your/demo.gif)
+![App Demo]
+<img width="854" height="404" alt="Fraud_sentinel" src="https://github.com/user-attachments/assets/00fceb13-9e89-4518-96ab-abb0eb79014c" />
 
 ---
 
