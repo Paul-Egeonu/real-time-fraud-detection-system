@@ -44,7 +44,6 @@ This project simulates a **production-grade fintech fraud detection system** use
 
 ## 🎥 Demo Preview
 
-![App Demo]
 <img width="854" height="404" alt="Fraud_sentinel" src="https://github.com/user-attachments/assets/00fceb13-9e89-4518-96ab-abb0eb79014c" />
 
 ---
