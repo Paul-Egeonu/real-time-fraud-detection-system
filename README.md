@@ -1,4 +1,3 @@
-<img width="854" height="404" alt="Fraud_sentinel" src="https://github.com/user-attachments/assets/4a0ff32f-cb78-4da8-b681-163b205392b0" />
 # 🛡️ Fraud Sentinel Pro
 
 ### Real-Time Fraud Detection System with Behavioral Intelligence
